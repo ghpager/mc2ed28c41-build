@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>Monoambiente PdE - apartamento</title>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css' />
+		<link type="text/css" rel="stylesheet" media="all" href="./global.css" />
+		<script src="./json.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="./cookie.js"></script>
+		<script src="./global.js"></script>
+	</head>
+<body data-resolution="3840 2560 1920 1280 1024 640" data-respath="apartamento/">
+	
+<ol id="marker">
+</ol>
+
+<div id="sidebar">
+	<div class="foreground">
+		<div id="profile" class="camera icon"></div>
+		<h1>Monoambiente PdE</h1>
+		<ul id="nav">
+			<li class="gallery active" data-image="apto-00-mesa-comedor-20141226-132748"><a href="./apartamento"><span>apartamento</span></a></li><li class="gallery " data-image="edificio-00-edificio-desde-noroeste-20150221-160002"><a href="./edificio"><span>edificio</span></a></li><li class="gallery " data-image="zona-00-bandera-uruguaya-20141215-100421"><a href="./zona"><span>zona</span></a></li><li class="gallery " data-image="edificio-vista-gimnasio-20130924-130109"><a href="./panorama"><span>panorama</span></a></li>			 
+		</ul>
+	</div>
+	
+	<ul id="control">
+	<li><a href="#" id="resbutton"><span class="monitor icon"></span><span class="restext"></span></a></li>
+	<li style="display: none"><a href="#" id="textbutton" class="active"><span class="toggle icon"></span><span class="text">hide text</span></a></li>
+	<!-- li><a href="/contact.html" id="contactbutton" class=""><span class="toggle icon"></span><span class="text">contact</span></a></li --!>
+	<li style="display: block"><a href="#" id="sharebutton"><span class="heart icon"></span>share</a></li>
+	<li  style="display: none"><a href="#" id="download"><span class="download icon"></span>download</a></li>
+
+        <li>
+                <form id="pay" method="POST" action="https://formspree.io/f/xvovqeko">
+                        <input type="hidden" name="_subject" value="[MPdE] Pago" />
+                        <input type="text" name="_gotcha" value="" style="display:none" />
+                        <input type="hidden" name="_next" value="//formspree.io/thanks" />
+                        <div style="height: 15px;"></div>
+                        <br id="pay_button_placeholder" />
+                </form>
+        </li>
+
+	</ul>
+			
+	<div class="background"></div>
+</div>
+
+<div id="resolution">
+</div>
+
+<div id="share">
+	<ul>
+	<li><a href="https://news.ycombinator.com/submit" target="_blank"><span class="icon hackernews"></span> Hackernews</a></li>
+	
+	<li><a href="#" onclick="window.open('https://www.facebook.com/sharer.php?u=' + encodeURIComponent(window.location)); return false">
+		<span class="icon facebook"></span> Facebook
+	</a></li>
+	
+	<li><a href="#" onclick="window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(window.location)); return false">
+		<span class="icon reddit"></span> Reddit
+	</a></li>
+	
+	<li><a href="#" id="pinterest"><span class="icon pinterest"></span> Pinterest</a></li>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#pinterest').click(function(){
+				window.open('http://pinterest.com/pin/create/button/?url='+encodeURIComponent(window.location)+'&media='+encodeURIComponent(window.location)+($(current_slide).data('url')+'/'+$('#resolution li').eq(0).data('res')+'.jpg'));
+				return false;
+			});
+		});
+	</script>
+	
+	
+	<li><a href="#" onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location)); return false">
+		<span class="icon twitter"></span> Twitter
+	</a></li>
+	
+	</ul>
+</div>
+
+<div id="main">
+	<div class="slide" style="color: #000; background-color: #9A9994" data-type="image" data-width="38" data-height="" data-imagewidth="2560" data-imageheight="1920" data-textcolor="#000" data-color1="#7F7A7A" data-color2="#9A9994" data-color3="#B3B2AF" data-color4="#CCC6BB" data-color5="#D6D5D3" data-color6="#EEE8DD" data-color7="#F9F9F8" data-videoformats="h264 vp8" data-polygon=''> <a name="1" class="internal"></a> <div class="post" style="top: 1%; left: 3%; width: 38%; height: 30%"> <div class="content"> <h4>Apartamento</h4> <p>Este nuevo monoambiente se encuentra en la zona de la Península de Punta del Este.</p> <p>Aunque el mismo está bien <strong>protegido del sol</strong>, cuenta con <strong>buena iluminación</strong>. La terraza está amplia y recibe sol durante las mañanas.</p> <p>Le corresponde un <strong>garaje</strong> el cual está equipado con una <strong>baulera</strong>.</p> <p>Cuenta también, con <strong>servicio de mucama</strong>, el cual les brindará un servicio de mantenimiento tanto del edificio cómo del apartamento. Este último se realiza cada semana.</p> <p><strong>&darr; Avanza hacia abajo para ver más fotos. &darr;</strong></p> </div> </div> <img class="image blank" src="//:0" width="2560" height="1920" data-url="apto-00-mesa-comedor-20141226-132748" /> </div> <div class="slide" style="color: #000; background-color: #665F59" data-type="image" data-width="30" data-height="30" data-imagewidth="2560" data-imageheight="1920" data-textcolor="#000" data-color1="#3D2E28" data-color2="#665F59" data-color3="#87766E" data-color4="#A3A09C" data-color5="#BDC6C8" data-color6="#D3D7D7" data-color7="#FCFDFD" data-videoformats="h264 vp8" data-polygon=''> <a name="2" class="internal"></a> <div class="post" style="top: 1%; left: 3%; width: 30%; height: 30%"> <div class="content"> <p>Great, modern apartment with a fantastic location. Gernot was a great host and we had a wonderful time in PdE using his place as a base camp. Minutes from the <strong>beaches, port and good restaurants</strong>.</p> <p><em>- Jay, USA</em></p> </div> </div> <img class="image blank" src="//:0" width="2560" height="1920" data-url="apto-05-living-20141020-123506" /> </div> <div class="slide" style="color: #000; background-color: #656460" data-type="image" data-width="17" data-height="15" data-imagewidth="2560" data-imageheight="1920" data-textcolor="#000" data-color1="#312624" data-color2="#656460" data-color3="#807E78" data-color4="#908E8E" data-color5="#ABA9AC" data-color6="#C1C2C6" data-color7="#EAEBED" data-videoformats="h264 vp8" data-polygon=''> <a name="3" class="internal"></a> <div class="post" style="top: 82%; left: 43%; width: 17%; height: 15%"> <div class="content"> <p>Todo bárbaro, el apartamento es muy lindo.</p> <p><em>- Giuliana, Uruguay</em></p> </div> </div> <img class="image blank" src="//:0" width="2560" height="1920" data-url="apto-07-living-20141020-123606" /> </div> <div class="slide" style="color: #ffffff; background-color: #64605C" data-type="image" data-width="" data-height="" data-imagewidth="2560" data-imageheight="1920" data-textcolor="#ffffff" data-color1="#402F2A" data-color2="#64605C" data-color3="#897573" data-color4="#7F8184" data-color5="#908F90" data-color6="#B0ACAC" data-color7="#D9DCDE" data-videoformats="h264 vp8" data-polygon=''> <a name="4" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="2560" height="1920" data-url="apto-08-living-20141020-123721" /> </div> <div class="slide" style="color: #ffffff; background-color: #8C766C" data-type="image" data-width="55" data-height="25" data-imagewidth="2560" data-imageheight="1920" data-textcolor="#ffffff" data-color1="#59524D" data-color2="#8C766C" data-color3="#978877" data-color4="#778488" data-color5="#A8A59D" data-color6="#CED9DC" data-color7="" data-videoformats="h264 vp8" data-polygon=''> <a name="5" class="internal"></a> <div class="post" style="top: 6%; left: 20%; width: 55%; height: 25%"> <div class="content"> <p>The apartment is in an oustanding condition, <strong>fully equipped with brand new appliances and very clean</strong>. Its blackout curtains and thick windows contribute to a good sleep. Gernot is an excellent host and has promptly resolved all of our minor inquiries. We look forward to staying here again.</p> <p><em>- Dario, Argentina</em></p> </div> </div> <img class="image blank" src="//:0" width="2560" height="1920" data-url="apto-10-kitchenette-20141020-123859" /> </div> <div class="slide" style="color: #ffffff; background-color: #70502F" data-type="image" data-width="35" data-height="" data-imagewidth="2560" data-imageheight="1600" data-textcolor="#ffffff" data-color1="#49301D" data-color2="#70502F" data-color3="#8A6133" data-color4="#977149" data-color5="#AF936B" data-color6="#D7C3A1" data-color7="" data-videoformats="h264 vp8" data-polygon=''> <a name="6" class="internal"></a> <div class="post" style="top: 5%; left: 60%; width: 35%; height: 30%"> <div class="content"> <p>The stay was very nice, thank you. Your place <strong>smells very nice</strong> lol.</p> <p><em>- Bryce, USA</em></p> </div> </div> <img class="image blank" src="//:0" width="2560" height="1600" data-url="apto-15-bano-20141107-095309" /> </div> <div class="slide" style="color: #ffffff; background-color: #8C6432" data-type="image" data-width="" data-height="" data-imagewidth="2560" data-imageheight="1600" data-textcolor="#ffffff" data-color1="#6D4F27" data-color2="#8C6432" data-color3="#9A7447" data-color4="#B09164" data-color5="#CCA875" data-color6="#D9C5AA" data-color7="" data-videoformats="h264 vp8" data-polygon=''> <a name="7" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="2560" height="1600" data-url="apto-17-bano-tina-20141107-112033" /> </div> <div class="slide" style="color: #ffffff; background-color: #746C8E" data-type="image" data-width="30" data-height="30" data-imagewidth="2560" data-imageheight="1600" data-textcolor="#ffffff" data-color1="#45394A" data-color2="#746C8E" data-color3="#88779D" data-color4="#748AB1" data-color5="#9990B3" data-color6="#B2ADD0" data-color7="#E7E2F2" data-videoformats="h264 vp8" data-polygon=''> <a name="8" class="internal"></a> <div class="post" style="top: 40%; left: 50%; width: 30%; height: 30%"> <div class="content"> <p>Estoy <strong>maravillada</strong> con el apartamento.</p> <p><em>- Giuliana, Uruguay</em></p> </div> </div> <img class="image blank" src="//:0" width="2560" height="1600" data-url="apto-20-cama-20141204-123443" /> </div> <div class="slide" style="color: #ffffff; background-color: #746C8E" data-type="image" data-width="" data-height="" data-imagewidth="2560" data-imageheight="1600" data-textcolor="#ffffff" data-color1="#554557" data-color2="#746C8E" data-color3="#7F7393" data-color4="#88779C" data-color5="#968FB1" data-color6="#B1ADD1" data-color7="#CCC7E6" data-videoformats="h264 vp8" data-polygon=''> <a name="9" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="2560" height="1600" data-url="apto-21-cama-20141204-123255" /> </div> <div class="slide" style="color: #ffffff; background-color: #6C6B64" data-type="image" data-width="" data-height="" data-imagewidth="2560" data-imageheight="1600" data-textcolor="#ffffff" data-color1="#2D231E" data-color2="#6C6B64" data-color3="#827A7D" data-color4="#8C8877" data-color5="#A1A19D" data-color6="#F8F9F8" data-color7="" data-videoformats="h264 vp8" data-polygon=''> <a name="10" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="2560" height="1600" data-url="apto-25-terraza-20140123-134925" /> </div> <div class="slide" style="color: #ffffff; background-color: #5E5E5B" data-type="image" data-width="" data-height="" data-imagewidth="2560" data-imageheight="1600" data-textcolor="#ffffff" data-color1="#493B31" data-color2="#5E5E5B" data-color3="#996E51" data-color4="#B58D61" data-color5="#778283" data-color6="#A1A2A3" data-color7="#F1F2F5" data-videoformats="h264 vp8" data-polygon=''> <a name="11" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="2560" height="1600" data-url="apto-30-terraza-20140123-134907" /> </div> <div class="slide" style="color: #ffffff; background-color: #8C512C" data-type="image" data-width="" data-height="" data-imagewidth="2560" data-imageheight="1600" data-textcolor="#ffffff" data-color1="#3F3B3A" data-color2="#8C512C" data-color3="#93715A" data-color4="#AC9170" data-color5="#CDA576" data-color6="#737991" data-color7="#C7B6A5" data-videoformats="h264 vp8" data-polygon=''> <a name="12" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="2560" height="1600" data-url="apto-50-cochera-20130425-163418" /> </div> 
+	
+	<div id="comments">
+	<div id="disqus_thread"></div>
+	</div>
+	
+	<script type="text/javascript">
+		var disqus_shortname = '';
+		var disqus_identifier = 'apartamento';
+		
+		if(disqus_shortname){
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		}
+	</script>
+</div>
+
+
+
+<script type="text/javascript" language="javascript">  
+// <![CDATA[ 
+//         function createBuyButton() { 
+
+amount = window.location.hash.replace(/#/, '');
+// Check if amount is present, a number and an integer:
+// Details: http://stackoverflow.com/questions/175739/is-there-a-built-in-way-in-javascript-to-check-if-a-string-is-a-valid-number
+if(amount.length > 0 && !isNaN(amount) && +amount % 1 === 0) {
+        amountInCents=amount + '00'
+
+        var buyButton = document.createElement("script"); 
+        // buyButton.id = "div1"; 
+        buyButton.setAttribute("src", "https://checkout.stripe.com/checkout.js");
+        buyButton.setAttribute("class", "stripe-button"); 
+
+        buyButton.setAttribute("data-key", "pk_live_ztFR4jJASkNzCQuvDZ8OeOpZ");
+        buyButton.setAttribute("data-currency", "usd");
+        buyButton.setAttribute("data-amount", amountInCents );
+        buyButton.setAttribute("data-name", "Monoambiente PdE");
+        buyButton.setAttribute("data-description", "Estadia (USD " + amount + ")");
+        buyButton.setAttribute("data-image", "/img/faro-128x128.jpg");
+        buyButton.setAttribute("data-locale", "auto");
+        buyButton.setAttribute("data-allow-remember-me", "false");
+
+        buyButton.innerHTML = ""; 
+
+
+        var placeHolder = document.getElementById("pay_button_placeholder");
+        placeHolder.parentNode.replaceChild(buyButton, placeHolder);
+        //document.getElementById("pay").appendChild(document.createElement("br")); 
+        //document.getElementById("pay").appendChild(buyButton); 
+}
+//         } 
+//
+// createBuyButton();
+// ]]>  
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+        var u="//trace.uber.space/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 28]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+<noscript><p><img src="//trace.uber.space/piwik.php?idsite=28" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+</body>
+</html>
